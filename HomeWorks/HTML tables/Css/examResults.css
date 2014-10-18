@@ -1,0 +1,19 @@
+body {
+    font-family: tahoma;
+
+}
+
+th, td {
+    padding: 5px;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+tfoot td {
+    text-align: right;
+}
+thead {
+    font-size: 23px;
+}

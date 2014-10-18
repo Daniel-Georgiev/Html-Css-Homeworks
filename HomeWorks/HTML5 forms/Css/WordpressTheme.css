@@ -1,0 +1,14 @@
+span{
+    font-size: 15px;
+}
+#outerDiv{
+    margin-left:20px ;
+}
+#button{
+    margin-left: 1px;
+    margin-top: -3px;
+    position: absolute;
+}
+#search{
+    width: 100px;
+}

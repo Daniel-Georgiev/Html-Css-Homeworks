@@ -1,0 +1,131 @@
+body{
+    font-family: tahoma, sans-serif;
+    color: white;
+    font-weight: bold;
+}
+#outerDiv{
+    background-color: #3B5997;
+    width: 750px;
+    height: 520px;
+    margin: 0 auto;
+}
+header{
+    font-size:100px;
+    font-weight: bold;
+    text-align: center;
+}
+#rights{
+    font-size: 20px;
+    margin-left: 5px;
+}
+h1{
+    text-align: center;
+    margin-top: 10px;
+}
+p{
+    text-align: center;
+    margin-top: -10px;
+
+}
+form{
+    display: inline;
+}
+#leftDiv{
+    width: 30%;
+    height: 30%;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    position: relative;
+    display: inline-block;
+}
+legend{
+    font-size: 12px;
+    text-align: center;
+}
+label{
+    font-size: 12px;
+}
+fieldset{
+    border-radius: 10px;
+    border: 1px solid;
+}
+input{
+    width: 45%;
+    height: 18px;
+    border: none;
+    border-radius: 3px;
+    margin-top: 6px;
+    margin-left: 6px;
+    font-size: 11px;
+}
+#bdaytime{
+    width: 80%;
+}
+#bdaytimeLabel{
+    margin-left: 6px;
+}
+#Female,#Male,#other{
+    margin-left: -30px;
+
+}
+
+#FemaleLabel,#MaleLabel,#OtherLabel{
+    margin-left: -41px;
+}
+#clearFormButton{
+    width: 100%;
+    height: 40px;
+    margin-left: 0;
+    margin-top: 15px;
+    border-radius: 5px;
+    background-color: #DDDDDD;
+    color: #3B5997;
+    font-size: 18px;
+}
+#rightDiv{
+    width:450px ;
+    height: 500px;
+    margin-left: 20px;
+
+    position: relative;
+    display: inline-block;
+
+}
+#rightDiv input{
+    width: 30%;
+    margin: 0;
+    margin-right: 5px;
+
+}
+select {
+    width: 30%;
+    margin-right: 5px;
+    font-size: 12px;
+    border-radius: 3px;
+}
+#rightDiv #number, #rightDiv #floor,#rightDiv #AppartmentNum{
+    width: 60px
+}
+#color{
+
+    height: 20px;
+
+}
+textarea{
+    height: 35px;
+    width: 95%;
+    border-radius:4px ;
+
+}
+#rightDiv #registerButton{
+    width: 100%;
+    height: 40px;
+    margin-top: 15px;
+    border-radius: 5px;
+    background-color: #DDDDDD;
+    color: #3B5997;
+    font-size: 20px
+}
+
+
+

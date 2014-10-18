@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: tahoma, sans-serif;
+}
+#outerDiv{
+    background-color: #FFC0CB;
+    height: 280px;
+    width: 400px;
+    margin: 0 auto;
+}
+
+input,select{
+    width: 180px;
+    height: 20px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+form{
+    position: relative;
+}
+#header{
+    font-style: italic;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    margin-bottom: 5px;
+}
+
+label{
+    font-style: italic;
+    font-size: 12px;
+    display: block;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+#fromCitySelector, #toCitySelector{
+    margin-bottom: 20px;
+}
+#prefer{
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    top: 40px;
+}
+#preferSpan{
+    font-size: 12px;
+    position: absolute;
+    top: 42px;
+    left: 20px;
+}
+#agesDiv input{
+    width: 55px;
+    display: inline;
+    margin-right: -6px
+}
+#agesDiv label{
+    display: inline;
+    margin-right: 32px;
+}
+#agesDiv label:nth-child(3){
+    margin-left: 1px;
+}
+
+#rightDiv{
+    position: absolute;
+    top: 0;
+    left: 190px;
+}
+.interval{
+    width: 89px;
+}
+#timeIntervalOneRight,#timeIntervalTwoRight{
+    margin-left: -3px;
+}
+#chooseClass{
+    height: 25px;
+}
+#searchButton{
+    font-weight: bold;
+    height: 25px;
+}

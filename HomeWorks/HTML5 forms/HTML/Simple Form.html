@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="../Css/Simple%20Form.css">
+</head>
+<body>
+    <div id="outerDiv">
+        <p id="header">Enter the system</p>
+        <p>It is necessary to login in Your account in order to sign in for a course.</p>
+        <p class="capitalized">Are you new? <span>Register</span></p>
+        <form>
+            <input type="text" id="username" title="Can contain dashes and letters" placeholder="User name"  pattern="[A-z- ]+" required/>
+            <input type="email" id="email" placeholder="Email" required="true" />
+            <input type="password" name="pwd" placeholder="Password" required>
+            <input type="password" name="confirmPwd" placeholder="Confirm Password" required>
+            <input type="submit" value="Register" id="registerButton"/>
+        </form>
+            <div id="blueDiv">
+                <p class="capitalized" id="whiteLogin">Already a student? Login</p>
+                <form>
+                    <input type="text" id="loginUsername"  title="Can contain dashes and letters only" placeholder="User name"  pattern="[A-z- ]+" required />
+                    <input type="password" name="pwd" placeholder="Password" required>
+                    <input type="checkbox" name="rememberMe" value="yes" id="rememberMe"><label for="rememberMe">Remember me?</label>
+                    <input type="submit" value="Login" id="loginButton"/>
+                    <a href="#" id="forgotpwd">Forgot Password</a>
+                </form>
+            </div>
+    </div>
+</body>
+</html>

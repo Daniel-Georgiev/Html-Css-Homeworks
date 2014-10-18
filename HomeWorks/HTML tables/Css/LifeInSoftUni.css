@@ -1,0 +1,85 @@
+body{
+    font-family: tahoma;
+    font-weight: bold;
+
+
+}
+table,td,th{
+    border: 1px solid black;
+
+}
+
+th{
+    height: 105px;
+    font-size: 45px;
+}
+
+tbody tr:first-child td{
+    width: 219px;
+    height: 105px;
+}
+td{
+    padding: 5px;
+}
+tbody tr:nth-child(2) td{
+    height: 105px;
+    width: 105px;
+
+}
+tbody tr:nth-child(3) td{
+    height: 127px;
+
+}
+tbody tr:nth-child(4) td{
+    height: 105px;
+}
+#innerTable{
+    width: 94px;
+    height: 115px;
+    margin: 5px;
+    font-size: 13px;
+
+}
+#socialLife{
+    height: 50px;
+    width: 88px;
+    text-align: center;
+}
+#sleep{
+    height: 50px;
+    width: 88px;
+    text-align: center;
+}
+#Google{
+    text-align: left;
+    vertical-align:top;
+}
+#gitHub{
+    text-align: right;
+    vertical-align: top;
+}
+#FB{
+    text-align: center;
+    vertical-align: top;
+}
+#gmail{
+    text-align: left;
+}
+#youtube{
+    text-align: center;
+    vertical-align: bottom;
+}
+#2048{
+    text-align: left;
+}
+#food{
+    text-align: right;
+    vertical-align: bottom;
+}
+#game{
+    text-align: left;
+    vertical-align: bottom;
+}
+#beer{
+    text-align: right;
+}

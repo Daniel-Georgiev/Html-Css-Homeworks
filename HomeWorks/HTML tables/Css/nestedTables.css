@@ -1,0 +1,20 @@
+table tr td{
+    border: 1px solid black;
+}
+#outerDiv{
+    border: 1px solid black;
+    width:25em;
+}
+
+
+.innerTable{
+    margin: 20px;
+    border:1px solid black;
+    width: 167px;
+    font-family: sans-serif;
+
+
+}
+a{
+    padding: 10px;
+}

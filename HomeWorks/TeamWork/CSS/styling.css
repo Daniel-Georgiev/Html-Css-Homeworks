@@ -1,0 +1,45 @@
+header{
+    position: relative;
+}
+nav{
+    background-image: url("http://2.bp.blogspot.com/-9ujYAXFGEYg/T7jZteiALxI/AAAAAAAAAFY/cg334BrxzaQ/h120/nbg.gif");
+}
+
+nav a {
+    color: #5a5a5a;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 14px 10px;
+    text-transform: uppercase;
+}
+
+
+nav li {
+    display: inline;
+    position:relative ;
+
+}
+ul{
+    list-style-type: none;
+    display: inline;
+
+}
+.navButton{
+    width: 100px;
+    height: 50px;
+    border:1px solid gray;
+    display: inline-block;
+    text-align: center;
+    align-content: space-around;
+    vertical-align: middle;
+    line-height: 50px;
+    background-color: darkgray;
+
+
+}
+#LeftDiv{
+    float: left;
+    border: 1px solid black;
+    width: 100px;
+    height: 200px;
+}

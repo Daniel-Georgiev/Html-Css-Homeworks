@@ -1,0 +1,93 @@
+body{
+    font-family: tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+#outerDiv{
+    background-color: #EEEEEE;
+    height: 350px;
+    width: 570px;
+    margin: 0 auto;
+}
+#header{
+    color: #2D4D6C;
+    font-size: 24px;
+    font-weight: bold;
+}
+p{
+    color: #656565;
+    font-size: 12px;
+    margin-left: 9px;
+}
+.capitalized{
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+}
+span{
+    color: #2D4D6C;
+}
+#whiteLogin{
+    color: white;
+}
+
+
+input{
+    display: block;
+    width: 230px;
+    height: 25px;
+    margin-bottom: 8px;
+    margin-left: 9px;
+}
+#blueDiv{
+    background-color: #234465;
+    height: 240px;
+    width: 286px;
+    position: relative;
+    left: 258px;
+    top: -225px;
+}
+#loginButton,#registerButton{
+    width: 111px;
+    height: 24px;
+}
+#loginButton:hover,#registerButton:hover{
+    background-color: #C1831C;
+}
+
+#loginButton{
+    background-color: #234465;
+    border: 2px solid #C1831C;
+    color: white;
+    margin-left: 132px;
+
+}
+#registerButton{
+    background-color: #EEEEEE;
+    color: #284868;
+    border:2px solid #284868;
+    margin-left: 132px;
+}
+#rememberMe{
+    width: 15px;
+    height: 15px;
+    color: white;
+    position: absolute;
+
+}
+label {
+    color: white;
+    font-size: 11px;
+    position: absolute;
+    top: 108px;
+    left: 30px
+}
+
+a{
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+    margin-left: 158px;
+    top: -10px;
+    position: relative;
+}

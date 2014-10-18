@@ -1,0 +1,107 @@
+body{
+    font-family: tahoma;
+}
+#temp{
+    margin: 0 auto;
+    background-color: #ffffff;
+    border: none;
+}
+#outerDiv{
+    position: absolute;
+    height: 800px;
+    width: 500px;
+    background-image: url(../resources/formBackground.jpg);
+
+}
+
+div{
+    background-color: rgba(159,179,200,0.7);
+    border: 2px solid rgba(159,179,200,1);
+    border-radius: 5px;
+    height: 40px;
+    width:420px;
+    margin-top: 2px;
+    margin-left: 30px;
+
+}
+input{
+    height: 23px;
+    width: 220px;
+    margin-left: 140px;
+    border-radius: 2px;
+    border: 0;
+    margin-top: 8px;
+}
+input:focus{
+    background-color: #e8ff7c;
+}
+label {
+    position: absolute;
+    margin-top: 12px;
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+P{
+    color:white;
+    margin-left: 30px;
+    font-weight: bold;
+    font-size: 17px;
+}
+#adressBox{
+    height: 135px;
+    margin-bottom: 3px;
+}
+#adress{
+    height: 110px;
+}
+textarea:focus{
+    background-color: #e8ff7c;
+}
+textarea {
+    border: 1px solid #ffffff;
+    border-radius: 2px;
+    height: 80%;
+    width: 50%;
+    margin-top: 8px;
+    margin-left: 140px;
+}
+#cardDiv{
+    height: 75px;
+}
+#cardNumberDiv{
+    margin-top: 1px;
+}
+#cardDiv #button1{
+    margin-left: 20px;
+}
+#cardDiv input{
+    height: 15px;
+    width: 15px;
+    display: inline;
+    cursor: pointer;
+    margin-top: 40px;
+    margin-left: 70px;
+}
+#cardDiv label{
+    cursor: pointer;
+    margin-top: 39px;
+    margin-left: 0;
+}
+#cardDiv label:first-child{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+#buyitButton{
+    border-radius: 50px;
+    width: 85px;
+    height: 25px;
+    background-color: #04152F;
+    color: white;
+    margin-left: 200px;
+}
+#buyitButton:hover{
+    color:red
+}
+
+

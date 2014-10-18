@@ -1,0 +1,27 @@
+table{
+    border: 1px solid #bfbfbf;
+    margin-right: -40px;
+}
+body{
+    font-size: 14px;
+    font-family: tahoma;
+}
+th{
+    text-align: left;
+    font-size: 32px;
+    padding-bottom: 30px;
+}
+
+tbody tr td:last-child{
+
+    font-size: 1.1em;
+    width:220px;
+    padding-left: 10px;
+}
+
+#rightSide{
+    width: 180px;
+}
+span{
+    font-weight: bold;
+}
