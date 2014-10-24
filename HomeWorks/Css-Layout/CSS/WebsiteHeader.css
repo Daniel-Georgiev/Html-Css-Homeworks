@@ -1,0 +1,151 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: tahoma, sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+}
+#container{
+    margin: 0 auto;
+    background-color: #234465;
+    height: 90px;
+    width: 1100px;
+    position: relative;
+    border-radius: 5px;
+}
+#logo{
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 20px;
+    display: inline;
+
+}
+#notifications a {
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    top: 23px;
+    right: 300px;
+}
+
+#user a{
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    top: 23px;
+    right: 240px;
+}
+input{
+    position: absolute;
+    right: 35px;
+    top: 20px;
+}
+#searchButton{
+    position: absolute;
+    right: 36px;
+    top: 24px;
+    background-color: white;
+    border: none;
+    border-left: 1px solid #E9E9E9;
+    font-size: 13px;
+    text-align: center;
+
+}
+
+
+#capitalized{
+    text-transform: uppercase;
+    list-style: none;
+    display: inline
+}
+ul{
+    position: relative;
+    left: 228px;
+}
+#capitalized li{
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: 20px;
+
+}
+
+#capitalized li a{
+
+    text-decoration: none;
+    color: white;
+}
+
+ul li:hover {
+    background-color: #4CA0DB;
+    border-radius: 5px;
+    display: inline-block;
+    padding-right: 5px;
+
+}
+
+ul ul{
+    display: none;
+}
+ul li{
+    padding: 5px;
+}
+ul  li:hover ul{
+    display: block;
+    position: absolute;
+
+}
+#firstDropdown{
+    position: relative;
+}
+
+#firstDropdown ul{
+    margin-top: 5px;
+    border: 1px solid #242d4b;
+    border-radius: 5px;
+    background-color: #234465;
+    margin-left: -220px;
+    width: 150px;
+    height: 140px;
+    padding:0;
+
+}
+
+
+#firstDropdown li{
+    margin-top: 15px;
+    font-size: 12px;
+
+
+
+}
+#secondDropdown{
+    position: relative;
+}
+#secondDropdown ul{
+    margin-top: 5px;
+    border: 1px solid #242d4b;
+    border-radius: 5px;
+    background-color: #234465;
+    padding: 0;
+    margin-left: -240px;
+    width: 300px;
+    height: 280px;
+
+
+}
+#secondDropdown li{
+    margin-top: 15px;
+    font-size: 12px;
+    width: 90%;
+
+
+
+}
+#firstDropdown li:hover , #secondDropdown li:hover{
+    background-color: #FF9C00;
+}
+
+
+
+
+

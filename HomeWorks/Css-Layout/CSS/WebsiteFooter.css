@@ -1,0 +1,105 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: tahoma, sans-serif;
+    font-size: 14px;
+}
+#container{
+    height: 300px;
+    width: 90%;
+    background-color: #234465;
+    color: white;
+    position: relative;
+    margin: 0 auto;
+}
+.button{
+    height: 40px;
+    width: 150px;
+    border: 1px solid #FF9F00;
+    text-align: center;
+    position: absolute;
+    left: 100px;
+    top: 50px;
+    margin-bottom: 10px;
+}
+#fastTracButton{
+    margin-top: 55px;
+}
+.button:hover{
+    background-color: #FF9F00;
+}
+.buttonText{
+    margin-top: 10px;
+    display: block;
+    font-weight: bold;
+}
+.heading{
+    color: #FF9F00;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: inline;
+    position: relative;
+
+}
+ul{
+    list-style: none;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+#bigMenu{
+    margin-left: 300px;
+    display: inline-block;
+    position: relative;
+    top: 45px;
+
+}
+.menu ul{
+    padding: 0;
+}
+
+#smallMenu{
+    display: inline-block;
+    left: 50px;
+    position: relative;
+}
+#lastHeader{
+    display: inline-block;
+    position: relative;
+    width: 250px;
+    left: 90px;
+}
+iframe{
+    background-color: #E9ECEF;
+    position: absolute;
+    top: 20px;
+
+}
+.smallButtons{
+    left: -86px;
+    top: 75px;
+    position: relative;
+    width: 30px;
+    height: 30px;
+    margin-left: 4px;
+
+}
+.menu ul li{
+    padding-bottom:5px ;
+
+}
+.menu{
+    vertical-align: top;
+    top: 45px;
+}
+#copyrights{
+    margin-top: 10px;
+    display:block;
+    width: 250px;
+}
+
+
+
+
